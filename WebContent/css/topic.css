@@ -1,0 +1,191 @@
+@charset "UTF-8";
+div:empty:before{
+content: attr(placeholder);
+color:#bbb;
+}
+.topic_mudule
+{
+	position:relative;
+	width:85%;
+	top:20px;left:80px;
+    background-color:#408080;    
+	padding:1px;
+}
+.topic_display
+{
+	position:relative;
+	width:100%;
+	background-color:#d3d6ab;
+	padding:1px;
+}
+.topics_bar
+{
+	position:relative;
+	width:100%;
+	height:40px;
+	text-align:left;
+	background-color:#d9dff5;
+}
+.topic_details
+{
+	position:relative;
+	width:700px;
+	height:40px;
+	background-color:#c0c0c0;
+}
+.title_bar
+{
+	position:relative;
+	width:100%;height:50px;
+	background-color:#d9dff5;
+}
+.postTitle
+{
+	font-size:x-large;
+}
+.postContent
+{
+	font-size:small;
+}
+.commentUserAvatar
+{
+	width:80px;
+	height:80px;
+
+}
+.commentRow
+{
+	position:relative;
+	width:96%;
+	padding:2px;
+	text-align:right;
+}
+
+.border_line
+{
+	width:100%;
+	border-top:1px solid #000;
+}
+.comment_order
+{
+	width:27px;
+	height:25px;
+	background-color:#8080ff;
+}
+.post_context
+{
+	position:relative;
+	width:100%;
+	padding:10px;
+	text-align:left;
+	word-wrap:normal;
+	font-size:medium;
+	background-color:#d9dff5;
+}	
+.replyRow
+{
+	position:relative;
+    width:80%;
+    min-height:20px;
+    border:1px solid;
+    left:20%;
+	background-color:#ffffff;
+}
+.hideBlock
+{
+	position:relative;
+	width:80%;
+	border:1px solid;
+	left:20%;
+	background-color:#ffffff;
+}
+.hideReply
+{
+	position:relative;
+	width:80%;
+	background-color:#ffffff;
+}
+.publish
+{
+	position:relative;
+	width:75%;
+	left:8%;
+	margin:30px;
+	text-align:left;
+	border:1px solid;
+	background-color:#f4feff;
+}
+.publicArea
+{
+	position:relative;
+    width:88%;
+    left:38px;
+	height:250px;
+	overflow-y:scroll;
+	border:1px solid;
+	background-color:#ffffff;
+}
+.add_head
+{
+	position:relative;
+	width:100%;
+	margin:5px;
+	height:30px;
+}
+.addImg
+{
+	position:absolute;
+	left:25px;
+	background-color:#00ff00
+}
+.addEmo
+{
+    position:absolute;
+    left:100px;
+    background-color:#00ff00
+}
+.addTopic
+{
+    position:absolute;
+    left:180px;
+    background-color:#00ff00
+}
+.publish_bar
+{
+	height:30px;
+	left:30px;
+	padding:35px;
+}
+.publish_btn
+{
+	position:absolute;
+	left:70px;
+	width:80px;
+}
+.cancel
+{
+	position:absolute;
+	left:190px;
+	width:80px;
+}
+.showSuccess
+{
+	position:absolute;
+	left:400px;
+}
+.visitor
+{
+	font-size:30px;
+	text-align:center;
+	margin:50px;
+}
+.showPhoto
+{
+	width:300px;
+	height:200px;
+}
+.avatar
+{
+	width:250px;
+	height:250px;
+}

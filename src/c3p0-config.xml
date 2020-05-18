@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+<default-config>
+<!--<propertyname="automaticTestTable">con_test</property>-->
+<!--<propertyname="checkoutTimeout">30000</property>-->
+<!--<propertyname="idleConnectionTestPeriod">30</property>-->
+<!--<propertyname="initialPoolSize">10</property>-->
+<!--<propertyname="maxIdleTime">30</property>-->
+<!--<propertyname="maxIdleTimeExcessConnections">10</property>-->
+<!--<propertyname="maxConnectionAge">60</property>-->
+<!--<propertyname="propertyCycle">1</property>-->
+<!--<propertyname="maxPoolSize">25</property>-->
+<!--<propertyname="minPoolSize">5</property>-->
+<!--<propertyname="maxStatements">0</property>-->
+<!--<propertyname="maxStatementsPerConnection">5</property>-->
+<!--<propertyname="maxAdministrativeTaskTime">4</property>-->
+<!--<propertyname="connectionCustomizerClassName">com.mchange.v2.c3p0.test.TestConnectionCustomizer</property>-->
+<!--<propertyname="unreturnedConnectionTimeout">15</property>-->
+<!--<propertyname="debugUnreturnedConnectionStackTraces">true</property>-->
+    <property name="user">root</property>  
+    <property name="password">199511</property>  
+    <property name="driverClass">com.mysql.jdbc.Driver</property>  
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/itc</property>  
+
+<!--
+<user-overrides user="swaldman">
+<propertyname="debugUnreturnedConnectionStackTraces">true</property>
+</user-overrides>
+-->
+
+</default-config>
+
+<!--
+<named-config name="dumbTestConfig">
+<propertyname="maxStatements">200</property>
+<propertyname="jdbcUrl">jdbc:test</property>
+<user-overrides user="poop">
+<propertyname="maxStatements">300</property>
+</user-overrides>
+</named-config>
+-->
+
+</c3p0-config>

@@ -1,0 +1,292 @@
+@charset "UTF-8";
+.mypage
+{
+	position:relative;
+	width:100%;
+	background:url(../image/blue.png);
+}
+.main
+{
+	position:relative;
+	width:80%;
+	left:8%;
+	background-color:#ffffff;
+}
+.myhead
+{
+	position:relative;
+	width:100%;
+	height:170px;;
+	background:url(../image/paddy.jpg);
+	background-size:100% 100%;
+}
+.link_bar
+{
+	position:relative;
+	width:100%;
+	height:30px;
+	padding:5px;
+	border:2px solid;
+	text-align:left;
+}
+.mybody
+{
+    position:relative;
+    width:100%;
+    min-width:1079px;
+    min-height:500px;
+    background-color:#408080;
+    background-size: 100% 100%;
+}
+.body_left
+{
+	position:absolute;
+	width:250px;
+	margin:20px;
+}
+.userpic
+{
+	position:absolute;
+	width:250px;
+	height:250px;
+	margin:20px;
+	background:#addde7;
+}
+.buttons
+{
+	position:absolute;
+	top:270px;
+	padding:3px;
+	width:250px;
+	height:300px;
+	margin:20px;
+	background-color:#ffffff;
+}
+.innerBorder
+{
+	position:relative;
+	margin:5px;
+	width:110px;
+	height:40px;
+	float:left;
+	background-color:#c0c0c0;
+}
+.innerBorder1
+{
+	position:relative;
+	margin:5px;
+	width:110px;
+	height:40px;
+	float:right;
+	text-align:center;
+	padding:10px;
+	background-color:#afc7d1;
+}
+.mymessage
+{
+	
+}
+.right_context
+{
+	position:relative;
+	height:100%;
+	pading:10px;
+}
+.body_right
+{
+	position:relative;
+	top:40px;
+	left:300px;
+	width:700px;
+	padding:20px;
+	background-color:#ffffff;
+}
+.edit_head
+{
+	position:relative;
+	text-align:left;
+	width:100%;
+	left:20px;
+	margin:10px;
+}
+.textarea
+{
+	position:absolute;
+	left:35px;top:24px;
+	width:500px;
+	height:120px;
+}
+.edit_body
+{
+	position:relative;
+    left:25px;
+	width:500px;
+	height:345px;
+	background-color:#c0c0c0;
+	overflow-y:visible;
+}
+.showPhoto
+{
+	width:300px;
+	height:200px;
+}
+.edit_bar
+{
+	position:absolute;
+    top:10px;left:11px;
+    padding:5px;
+	width:478px;
+	height:40px;
+	align:left;
+	display:inline-block;
+	background-color:#ffffff;
+}
+.IdImg
+{
+	width:200px;
+	height:300px;
+}
+.upfile
+{
+	position:relative;
+	left:100px;bottom:25px;
+	
+}
+.module_bar
+{
+	position:absolute;
+	left:500px;
+	width:80px;
+}
+.hide_head
+{
+	position:absolute;
+    top:52px;left:10px;
+	width:480px;
+	height:30px;
+	
+}
+.hide_body
+{
+	position:absolute;
+    top:84px;left:10px;
+	width:480px;
+	height:220px;
+	text-align:left;
+	overflow-y:scroll;
+	background-color:#ffffff;
+}
+.submit_btn
+{
+	position:absolute;
+	top:311px;left:405px;
+	background-color:#ffffff;
+}
+.cancel_btn
+{
+	position:absolute;
+	top:311px;left:15px;
+	backgound-color:#00ff80;
+}
+.showSuccess
+{
+	position:absolute;
+	top:310px;
+	left:150px;
+}
+.edited_pages
+{
+	position:relative;
+	margin:10px;
+}
+.edited_title
+{
+	position:relative;
+	width:490px;height:45px;
+	left:15px;top:20px;
+	background-color:#c0c0c0;
+	text-align:left;
+}
+.edited_body
+{
+	position:relative;
+	width:430px;
+	top:10px;left:70px;
+	text-align:left;
+	overflow-y:visible;
+	margin:1px;
+}
+.myIcon
+{
+	position:absolute;
+	left:1px;top:1px;
+	width:50px;
+	height:43px;
+	margin:1px;
+	background-color:#00ff80;
+}
+.subTitle
+{
+	position:absolute;
+	left:55px;top:1px;
+	width:430px;
+	height:42px;
+	margin:1px;
+}
+.essay_title
+{
+	position:relative;
+	left:1px;top:10px;
+	width:100%;
+	margin:1px;
+	border:1px solid;
+}
+.essay_body
+{
+	position:relative;
+	left:1px;top:5px;
+	width:430px;
+	overflow-y:visible;
+	margin:1px;
+	border:1px solid;
+
+}
+.edit_bottom
+{
+	position:relative;
+	width:100%;
+}
+.fens
+{
+	text-align:left;
+	padding:10px;
+}
+.addFellow1
+{
+	position:absolute;
+	top:30px;
+	left:92px;
+}
+.showName
+{
+	position:absolute;
+	top:5px;
+	left:92px;
+}
+.fens_count
+{
+	font-weight:bold;
+}
+.message
+{
+	relative:relative;
+	height:90px;
+	width:250px;
+	background-color:#8080ff;
+	margin:5px;
+}
+.nfellow
+{   
+	position:relative;
+	left:40px;
+}
